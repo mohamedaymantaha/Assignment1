@@ -1,0 +1,43 @@
+a. $ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+b. 5 commits. I used git log to know this.
+
+c. Thursday, January 10 16:45:38 2019. I used the command git log -- .gitignore
+
+d. One reason for using branches is so you don't end up editing the master.
+ The master branch is what's deployable in the end. Another reason is it  
+ provides organizational benefits for the developer.
+
+e. git status displays which changes have been staged. whereas git log
+displays a record of such commits.
+
+f. git log Weapon.h
+
+g. git grep file
+
+h. I. Inheritance is the idea that new data types can be defined as extensions
+of previously defined types, rather than having to be defined from scratch.
+II. Polymorphism is the concept that objects of different types can be accessed 
+through the same interface.
+III. Encapsulation is the gathering into one unit of all aspects of the real-world
+entity modeled by that unit.
+
+i. The "Dictator and Lieutenants" workflow is where development is distributed between
+a few Lieutenant repositories and one "Dictator" repository in order to only allow any
+changes to be pushed by the Dictator. A "Centralized" workflow is where each developer
+pulls changes in the central repository and pushes them back into the central repository,
+with all developers working at one shared repository.
+
+j. The "Dictator and Lieutenants" workflow is much more suitable to a big team of 
+developers than the "Centralized" workflow because it would be much more organized
+to manage each change at once through one individual repository instead of every
+developer pushing and pulling from the main repository. Much more efficient in
+management and time.
+
+5. It is using polymorphism because the weapons are different and yet they are all accessed
+through the same template. It's also using encapsulation by the way the armor points system
+is modeled.
